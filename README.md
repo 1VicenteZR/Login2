@@ -41,9 +41,9 @@ El proyecto se compone de los siguientes archivos principales:
 ---
 
 ## 🖼️ Capturas de Pantalla
-(https://github.com/user-attachments/assets/c26d4ff4-d370-477f-a804-ec013fe15faa)
+![image](https://github.com/user-attachments/assets/c26d4ff4-d370-477f-a804-ec013fe15faa)
 
-(https://github.com/user-attachments/assets/424b87e9-1219-4893-866a-2bf0ff08665f)
+![image](https://github.com/user-attachments/assets/424b87e9-1219-4893-866a-2bf0ff08665f)
 
 
 ---
