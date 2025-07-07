@@ -44,13 +44,3 @@ El proyecto se compone de los siguientes archivos principales:
 ### Código ejecutándose en navegador:
 ![image](https://github.com/user-attachments/assets/9b9425be-f1b3-437a-b147-59c8e6a7c170)
 ![image](https://github.com/user-attachments/assets/0e4545a1-f595-4d64-b325-981af7d14673)
-
-
-
-> ✅ Asegúrate de guardar tus imágenes en una carpeta `/img` y usar rutas relativas o enlaces públicos.
-
-```markdown
-![Login](img/login.png)
-![Registro](img/registro.png)
-![Dashboard](img/dashboard.png)
-
