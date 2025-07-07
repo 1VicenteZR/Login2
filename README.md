@@ -41,14 +41,9 @@ El proyecto se compone de los siguientes archivos principales:
 ---
 
 ## 🖼️ Capturas de Pantalla
+(https://github.com/user-attachments/assets/c26d4ff4-d370-477f-a804-ec013fe15faa)
 
-### 🔓 Pantalla de Inicio de Sesión
-![image](https://github.com/user-attachments/assets/82fb6753-f398-4c47-a729-e3fc890d915f)
-
-
-### 📋 Panel del Donante
-![image](https://github.com/user-attachments/assets/f2770c69-b66c-45b4-a936-7df7400e4f74)
-
+(https://github.com/user-attachments/assets/424b87e9-1219-4893-866a-2bf0ff08665f)
 
 
 ---
