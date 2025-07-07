@@ -40,6 +40,7 @@ El proyecto se compone de los siguientes archivos principales:
 ---
 
 ## 📑 link de pages
+https://1vicentezr.github.io/Login2/
 ## 🖼️ c. Capturas de pantalla
 
 ### Código ejecutándose en navegador:
