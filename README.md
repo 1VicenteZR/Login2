@@ -57,7 +57,7 @@ El proyecto se compone de los siguientes archivos principales:
 
 
 ```
-https://<tu-usuario>.github.io/<tu-repositorio>/
+(https://1vicentezr.github.io/Login2/)
 ```
 
 
