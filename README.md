@@ -1,4 +1,3 @@
-```markdown
 # 🩸 Proyecto Login de Donantes de Sangre
 
 Sistema de inicio de sesión para donantes y administradores en una clínica, con validación de campos, diseño responsivo y conexión a un panel de control simulado. Forma parte del módulo de **Programación Web**.
@@ -40,23 +39,18 @@ El proyecto se compone de los siguientes archivos principales:
 
 ---
 
-## 🖼️ Capturas de Pantalla
-![Login2](https://github.com/1VicenteZR/Login2/blob/main/image.png)
+## 🖼️ c. Capturas de pantalla
 
----
-
-## 🌐 Publicación con GitHub Pages
-
-
-```
-(https://1vicentezr.github.io/Login2/)
-```
+### Código ejecutándose en navegador:
+![image](https://github.com/user-attachments/assets/9b9425be-f1b3-437a-b147-59c8e6a7c170)
+![image](https://github.com/user-attachments/assets/0e4545a1-f595-4d64-b325-981af7d14673)
 
 
-## 📝 Notas Finales
 
-- README escrito en formato Markdown para claridad y formato.
-- Se recomienda probar en dispositivos móviles para comprobar responsividad.
-- Proyecto orientado a prácticas académicas, fácilmente escalable con backend o almacenamiento real.
+> ✅ Asegúrate de guardar tus imágenes en una carpeta `/img` y usar rutas relativas o enlaces públicos.
 
----
+```markdown
+![Login](img/login.png)
+![Registro](img/registro.png)
+![Dashboard](img/dashboard.png)
+
