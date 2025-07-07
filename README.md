@@ -39,6 +39,7 @@ El proyecto se compone de los siguientes archivos principales:
 
 ---
 
+## 📑 link de pages
 ## 🖼️ c. Capturas de pantalla
 
 ### Código ejecutándose en navegador:
