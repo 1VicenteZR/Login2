@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrar Usuario</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #efefef;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .form-container {
+      width: 450px;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      margin: 50px auto;
+    }
+
+    .form-container h4 {
+      color: #2979ff;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .form-label {
+      font-weight: 500;
+    }
+
+    .btn-custom {
+      background-color: #2979ff;
+      color: #fff;
+      border: none;
+      padding: 10px 25px;
+    }
+
+    .btn-custom:hover {
+      background-color: #1c54b2;
+    }
+
+    .text-danger {
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h4>Registrar Usuario</h4>
+
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Nombre corto*</label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Correo*</label>
+        <input type="email" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Sexo*</label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Contraseña*</label>
+        <input type="password" class="form-control" required>
+        <small class="text-danger">
+          La contraseña debe tener entre 8 y 15 caracteres, incluir mayúscula, minúscula, número y símbolo.
+        </small>
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label">Confirmar contraseña*</label>
+        <input type="password" class="form-control" required>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-custom">Registrar</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+body {
+  background-color: #eeeeee;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-card {
+  width: 800px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+}
+
+.img-section {
+  width: 45%;
+}
+
+.img-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.form-section {
+  width: 55%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.logo {
+  height: 60px;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.slogan {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #444;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/* --- Mejoras de accesibilidad y responsividad --- */
+
+/* Mejor contraste para botones activos */
+.tab-buttons .btn.active {
+  background-color: #009688;
+  color: #fff;
+}
+
+/* Mejor enfoque visual para inputs y botones */
+input:focus, .form-control:focus, .custom-input:focus, .btn:focus, .btn-custom:focus, .btn-outline-custom:focus {
+  outline: 2px solid #009688;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #b2f0e6;
+}
+
+/* Transiciones suaves para inputs y botones */
+input, .form-control, .custom-input, .btn, .btn-custom, .btn-outline-custom {
+  transition: box-shadow 0.2s, border-color 0.2s, background-color 0.2s, color 0.2s;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 600px) {
+  .login-card {
+    flex-direction: column;
+    width: 98vw;
+    height: auto;
+    min-height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .img-section {
+    display: none;
+  }
+  .form-section {
+    width: 100%;
+    padding: 18px 8px;
+  }
+  .full-width {
+    max-width: 100%;
+  }
+}
+
+/* Mejor contraste para texto de slogan */
+.slogan {
+  color: #222;
+  font-size: 15px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.tab-buttons .btn {
+  flex: 1;
+  border-radius: 25px;
+  font-weight: 600;
+  margin: 0 5px;
+  padding: 8px;
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: 0.3s;
+}
+
+.tab-buttons .btn.active {
+  background-color: #b2f0e6;
+  color: #000;
+}
+
+.form-control {
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.d-flex.justify-content-around {
+  gap: 8px;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: #91e5db;
+  color: #000;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 8px 18px;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #74d6cb;
+}
+
+.btn-outline-custom {
+  background-color: #d2fdf7;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+}
+
+.btn-outline-custom:hover {
+  background-color: #b2f0e6;
+}
+
+.full-width {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 10px 12px 10px 38px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 40px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: 0.2s ease-in-out;
+}
+
+.custom-input:focus {
+  border-color: #91e5db;
+  box-shadow: 0 0 5px rgba(145, 229, 219, 0.4);
+  outline: none;
+}
+
+button.btn-custom,
+button.btn-outline-custom {
+  min-width: 140px;
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 10px 0;
+  transition: 0.3s ease;
+}
+
+.btn-custom {
+  background-color: #91e5db;
+  color: #000;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #6ed3c5;
+}
+
+.btn-outline-custom {
+  background-color: #d2fdf7;
+  color: #000;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-outline-custom:hover {
+  background-color: #b2f0e6;
+}

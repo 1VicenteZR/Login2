@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel Donante</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .dashboard-bg {
+      background: url('img/lab.png') center/cover no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="card shadow-lg border-0 rounded-4 p-4 mb-4 bg-white position-relative overflow-hidden">
+          <div class="dashboard-bg position-absolute top-0 start-0 w-100 h-100" style="z-index:0; opacity:0.08;"></div>
+          <div class="card-body text-center position-relative" style="z-index:1;">
+            <img src="img/logo.png" alt="Logo" style="height:60px; margin-bottom:10px;">
+            <h1 class="text-primary mb-2 fw-bold">Bienvenido al panel del donante</h1>
+            <p class="lead mb-4">Aquí verás tus próximas citas, tu historial y más.</p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm bg-light">
+                  <div class="card-body">
+                    <div class="mb-2"><span class="fs-2 text-success">📅</span></div>
+                    <h5 class="card-title text-success">Próxima cita</h5>
+                    <p class="card-text">No tienes citas programadas.</p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Agendar nueva cita</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm bg-light">
+                  <div class="card-body">
+                    <div class="mb-2"><span class="fs-2 text-info">🩸</span></div>
+                    <h5 class="card-title text-info">Historial de donaciones</h5>
+                    <ul class="list-group list-group-flush mb-2">
+                      <li class="list-group-item">Sin registros aún.</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-info btn-sm">Ver historial</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm bg-light">
+                  <div class="card-body">
+                    <div class="mb-2"><span class="fs-2 text-warning">👤</span></div>
+                    <h5 class="card-title text-warning">Mi perfil</h5>
+                    <p class="card-text">Actualiza tus datos personales y preferencias.</p>
+                    <a href="#" class="btn btn-outline-warning btn-sm">Editar perfil</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="alert alert-info text-center mt-3 shadow-sm rounded-3" role="alert" style="font-size:1.1rem;">
+          <span class="fw-semibold">¿Sabías que puedes donar sangre cada 3 meses?</span> ¡Gracias por salvar vidas!
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Donante</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card login-card d-flex flex-row flex-wrap overflow-hidden">
+
+
+      <!-- Imagen -->
+      <div class="img-section">
+        <img src="img/lab.png" alt="Imagen Donación">
+      </div>
+
+      <!-- Panel derecho -->
+      <div class="form-section p-4 d-flex flex-column justify-content-center">
+        <div id="login-panel">
+          <div class="text-center mb-2">
+            <img src="img/logo.png" alt="Logo BSA" class="logo">
+            <p class="slogan">Clinica PW<br><small>Salva una vida, dona sangre hoy.</small></p>
+          </div>
+
+          <div class="d-flex justify-content-center mb-3 tab-buttons">
+            <button class="btn active" id="donantesBtn">Donantes</button>
+            <button class="btn" id="adminBtn">Administración</button>
+          </div>
+
+<form method="post" autocomplete="on">
+  <div class="input-wrapper full-width mb-3" style="max-width: 340px; width: 100%; margin: 0 auto 16px auto;">
+    <span class="input-icon">📧</span>
+    <label for="username" class="visually-hidden">Correo electrónico</label>
+    <input
+      type="email"
+      class="form-control custom-input"
+      placeholder="Correo electrónico"
+      id="username"
+      name="username"
+      required
+      autocomplete="email"
+      style="width: 100%; box-sizing: border-box;"
+    >
+  </div>
+  <div class="input-wrapper full-width mb-4" style="max-width: 340px; width: 100%; margin: 0 auto 20px auto;">
+    <span class="input-icon">🔒</span>
+    <label for="password" class="visually-hidden">Contraseña</label>
+    <input
+      type="password"
+      class="form-control custom-input"
+      placeholder="Contraseña"
+      id="password"
+      name="password"
+      required
+      autocomplete="current-password"
+      style="width: 100%; box-sizing: border-box;"
+    >
+  </div>
+  <div class="mb-2 text-end" style="width:100%; max-width:340px; margin:0 auto;">
+    <a href="#" tabindex="0" style="font-size:13px; color:#009688; text-decoration:none;">¿Olvidaste tu contraseña?</a>
+  </div>
+  <div class="d-flex justify-content-center full-width gap-3">
+    <button type="button" class="btn btn-custom" id="loginBtn">Iniciar sesión</button>
+    <button type="button" class="btn btn-outline-custom" id="registerBtn">Registrarse</button>
+  </div>
+</form>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
